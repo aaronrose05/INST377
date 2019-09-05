@@ -3,6 +3,8 @@
     <head>
         <title>This is the title of my page</title>
         <meta charset="UTF-8">
+        <meta name="description" content="Just a list of basic HTML examples">
+        <meta name="author" content="w3schools and me"
     </head>
 
     <body>
@@ -220,8 +222,20 @@
         <!--
             Iframes
         -->
-        <div>
-                <iframe src="https://www.w3schools.com/" height="100%" width="50%" style="position: center"></iframe>
-        </div>
+        <iframe src="https://www.w3schools.com/" height="100%" width="50%" style="position: center"></iframe>
+
+        <!--
+            Javascript
+        -->
+        <br>
+        <button type="button" onclick=onClick()>Click Me</button>
+        
+        <p id="demo">This is demo text</p>
+
+        <script>
+            function onClick(){
+                document.getElementById("demo").innerHTML = "You clicked the button";
+            }
+        </script>
     </body>
 </html>
