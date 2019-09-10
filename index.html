@@ -4,238 +4,244 @@
         <title>This is the title of my page</title>
         <meta charset="UTF-8">
         <meta name="description" content="Just a list of basic HTML examples">
-        <meta name="author" content="w3schools and me"
+        <meta name="author" content="w3schools and me">
+
+        <link rel="stylesheet" type="text/css" href="/Users/aaronrose/Documents/INST377/styles.css">
     </head>
 
-    <body>
-        <h1>My first heading! Woop Woop!</h1>
+    <body class="frontpage">
+        <h1 class="frontpage_header">My first heading! Woop Woop!</h1>
+        
+        <div class="frontpage_paragraph">
+            <p>My first paragraph! Woop x2!</p>
 
-        <p>My first paragraph! Woop x2!</p>
+            <p>My first <br> paragraph with line break</p>
 
-        <p>My first <br> paragraph with line break</p>
+            <a href="https://www.w3schools.com">This is a link to w3schools.</a>
+        </div>
 
-        <a href="https://www.w3schools.com">This is a link to w3schools.</a>
+            <!--
+                Trying out different attributes
+            -->
+            <p title="I'm a tooltip">This is a paragraph.</p>
 
-        <!--
-            Trying out different attributes
-        -->
-        <p title="I'm a tooltip">This is a paragraph.</p>
+            <!--
+                Playing with header types
+            -->
+            <h1>I'm</h1>
+            <h2>getting</h2>
+            <h3>smaller</h3>
+            <h4>as</h4>
+            <h5>you</h5>
+            <h6>read</h6>
 
-        <!--
-            Playing with header types
-        -->
-        <h1>I'm</h1>
-        <h2>getting</h2>
-        <h3>smaller</h3>
-        <h4>as</h4>
-        <h5>you</h5>
-        <h6>read</h6>
+            <!--
+                Going through paragraph types and preformatted
+            -->
+            <pre>
+                I'm 
+                
+                PREFORMATTED
+            </pre>
 
-        <!--
-            Going through paragraph types and preformatted
-        -->
-        <pre>
-            I'm 
-            
-            PREFORMATTED
-        </pre>
+            <!--
+                Adding ~style~
+            -->
+            <p style="font-family:verdana; color:blue; font-size:20pt">They call me big blue</p>
 
-        <!--
-            Adding ~style~
-        -->
-        <p style="font-family:verdana; color:blue; font-size:20pt">They call me big blue</p>
+            <!--
+                Different formatting types
+            -->
+            <b>bold</b> 
+            <strong>strong</strong> 
+            <i>italics</i>
+            <em>emphasized</em>
+            <small>small</small>
+            <mark>highlighted</mark>
+            <del>deleted</del>
+            <p>hi <ins>inserted</ins> there</p>
+            <p>Look <sub>subscripted</sub> down</p>
+            <p>Look <sup>superscripted</sup> up</p>
 
-        <!--
-            Different formatting types
-        -->
-        <b>bold</b> 
-        <strong>strong</strong> 
-        <i>italics</i>
-        <em>emphasized</em>
-        <small>small</small>
-        <mark>highlighted</mark>
-        <del>deleted</del>
-        <p>hi <ins>inserted</ins> there</p>
-        <p>Look <sub>subscripted</sub> down</p>
-        <p>Look <sup>superscripted</sup> up</p>
+            <!--
+                Quotes, Blockquotes, Abbreviations, Addresses, Citations, and Bidrectional Override
+            -->
+            <p>Here's an example of quotes <q>I'm a quote!</q></p>
+            <p>Here's an example of blockquotes <blockquote>Four score and seven years ago</blockquote></p>
+            <p>The <abbr title="University of Maryland">UMD</abbr> rocks</p>
+            <address>
+                Coded by: Aaron Rose <br>
+                Visit me at: thisisntarealurl.com
+            </address>
+            <p><cite>Sinister</cite> by Scott Derrickson, 2012</p>
+            <bdo dir="rtl"> Right step let's stomp</bdo>
 
-        <!--
-            Quotes, Blockquotes, Abbreviations, Addresses, Citations, and Bidrectional Override
-        -->
-        <p>Here's an example of quotes <q>I'm a quote!</q></p>
-        <p>Here's an example of blockquotes <blockquote>Four score and seven years ago</blockquote></p>
-        <p>The <abbr title="University of Maryland">UMD</abbr> rocks</p>
-        <address>
-            Coded by: Aaron Rose <br>
-            Visit me at: thisisntarealurl.com
-        </address>
-        <p><cite>Sinister</cite> by Scott Derrickson, 2012</p>
-        <bdo dir="rtl"> Right step let's stomp</bdo>
+            <!--
+                Colors
+            -->
+            <h1 style="background-color: tomato; color: white; border: 3px solid black;"> This background is tomato colored with
+                white text and a black border</h1>
 
-        <!--
-            Colors
-        -->
-        <h1 style="background-color: tomato; color: white; border: 3px solid black;"> This background is tomato colored with
-             white text and a black border</h1>
+            <!--
+                Styling
+                Link: Green
+                Visited Link: Pink
+                Hovering on link: Red
+                Active Link: Red
+            -->
+            <style>
+                a:link{
+                    color: green; 
+                    background-color: transparent; 
+                    text-decoration: none;
+                }
 
-        <!--
-            Styling
-            Link: Green
-            Visited Link: Pink
-            Hovering on link: Red
-            Active Link: Red
-        -->
-        <style>
-            a:link{
-                color: green; 
-                background-color: transparent; 
-                text-decoration: none;
-            }
+                a:visited{
+                    color: pink;
+                    background-color: transparent;
+                    text-decoration: none;    
+                }
 
-            a:visited{
-                color: pink;
-                background-color: transparent;
-                text-decoration: none;    
-            }
+                a:hover{
+                    color: red;
+                    background-color: transparent;
+                    text-decoration: underline;
+                }
 
-            a:hover{
-                color: red;
-                background-color: transparent;
-                text-decoration: underline;
-            }
+                a:active{
+                    color: yellow;
+                    background-color: transparent;
+                    text-decoration: underline;
+                }
+            </style>
 
-            a:active{
-                color: yellow;
-                background-color: transparent;
-                text-decoration: underline;
-            }
-        </style>
+            <!--
+                Links and references
+            -->
+            <a href="https://www.youtube.com">This is a link to YouTube</a>
+            <br>
+            <a href="image.img">This is a fake internal link</a>
 
-        <!--
-            Links and references
-        -->
-        <a href="https://www.youtube.com">This is a link to YouTube</a>
-        <br>
-        <a href="image.img">This is a fake internal link</a>
+            <!--
+                Images, gifs, background images, 
+            -->
 
-        <!--
-            Images, gifs, background images, 
-        -->
+            <img src="https://media.giphy.com/media/YWf50NNii3r4k/giphy.gif" alt="A kermit meme about memes" style="float: right;">
 
-        <img src="https://media.giphy.com/media/YWf50NNii3r4k/giphy.gif" alt="A kermit meme about memes">
+            <p style="background-image: url('https://www.peta.org/wp-content/uploads/2019/03/chicken-2789493_1920.jpg'); color: white">
+                its an image of chickens. i was gonna say look at all those chickens. but there are none.</p>
 
-        <p style="background-image: url('https://www.peta.org/wp-content/uploads/2019/03/chicken-2789493_1920.jpg'); color: white">
-            its an image of chickens. i was gonna say look at all those chickens. but there are none.</p>
+            <!--
+                Tables
+            -->
+            <table style="width: 30%; height: 30%; position: right; border: 3px solid black">
+                <caption>An Example Table</caption>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                </tr>
+                <tr>
+                    <th>Aaron</th>
+                    <th>Rose</th>
+                </tr>
+                <tr>
+                    <th>John</th>
+                    <th>Doe</th>
+                </tr>
+            </table>
 
-        <!--
-            Tables
-        -->
-        <table style="width: 30%; height: 30%; position: right; border: 3px solid black">
-            <caption>An Example Table</caption>
-            <tr>
-                <th>First Name</th>
-                <th>Last Name</th>
-            </tr>
-            <tr>
-                <th>Aaron</th>
-                <th>Rose</th>
-            </tr>
-            <tr>
-                <th>John</th>
-                <th>Doe</th>
-            </tr>
-        </table>
+            <!--
+                Lists
+                Unordered, Ordered, Descriptive, Nested
+            -->
+            <ul style="list-style-type: circle">
+                <li>Typed first</li>
+                <li>Typed second</li>
+                <li>Typed third</li>
+            </ul>
 
-        <!--
-            Lists
-            Unordered, Ordered, Descriptive, Nested
-        -->
-        <ul style="list-style-type: circle">
-            <li>Typed first</li>
-            <li>Typed second</li>
-            <li>Typed third</li>
-        </ul>
+            <ol type="1">
+                <li>Typed first</li>
+                <li>Typed second</li>
+                <li>Typed third</li>
+            </ol>
 
-        <ol type="1">
-            <li>Typed first</li>
-            <li>Typed second</li>
-            <li>Typed third</li>
-        </ol>
+            <dl>
+                <dt>Typed first</dt>
+                <dd>I typed this first</dd>
+                <dt>Typed second</dt>
+                <dd>I typed this second</dd>
+                <dt>Typed third</dt>
+                <dd>I typed this third</dd>
+            </dl>
 
-        <dl>
-            <dt>Typed first</dt>
-            <dd>I typed this first</dd>
-            <dt>Typed second</dt>
-            <dd>I typed this second</dd>
-            <dt>Typed third</dt>
-            <dd>I typed this third</dd>
-        </dl>
-
-        <ul>
-            <li>Typed first</li>
-            <li>Typed second</li>
             <ul>
                 <li>Typed first</li>
                 <li>Typed second</li>
+                <ul>
+                    <li>Typed first</li>
+                    <li>Typed second</li>
+                </ul>
+                <li>Typed third</li>
             </ul>
-            <li>Typed third</li>
-        </ul>
 
-        <!--
-            <div> defines a section in a document (block-level)
-            <span> defines a secion in a document (inline)
-        -->
+            <!--
+                <div> defines a section in a document (block-level)
+                <span> defines a secion in a document (inline)
+            -->
 
-        <!--
-            Classes
-        -->
-        <style>
-            .firstclass{
-                background-color: darkred;
-                color: white;
-                border: 3px solid black;
-            }
-            span.example{
-                color: blue;
-            }
-        </style>
+            <!--
+                Classes
+            -->
+            <style>
+                .firstclass{
+                    background-color: darkred;
+                    color: white;
+                    border: 3px solid black;
+                }
+                span.example{
+                    color: blue;
+                }
+            </style>
 
-        <div class="firstclass"> 
-            <p>My <span class="example">first</span> class </p>
+            <div class="firstclass"> 
+                <p>My <span class="example">first</span> class </p>
+            </div>
+
+            <!--
+                ID
+                An ID can be used only on a single element while classes can be used on multiple
+            -->
+            <style>
+                #myHeader {
+                background-color: lightblue;
+                color: black;
+                padding: 40px;
+                text-align: center;
+                } 
+            </style>
+                    
+            <h1 id="myHeader">My Header</h1>
+
+            <!--
+                Iframes
+            -->
+            <iframe src="https://www.w3schools.com/" height="100%" width="50%" style="position: center"></iframe>
+
+            <!--
+                Javascript
+            -->
+            <br>
+            <button type="button" onclick=onClick()>Click Me</button>
+            
+            <p id="demo">This is demo text</p>
+
+            <script>
+                function onClick(){
+                    document.getElementById("demo").innerHTML = "You clicked the button";
+                }
+            </script>
         </div>
-
-        <!--
-            ID
-            An ID can be used only on a single element while classes can be used on multiple
-        -->
-        <style>
-            #myHeader {
-              background-color: lightblue;
-              color: black;
-              padding: 40px;
-              text-align: center;
-            } 
-        </style>
-                
-        <h1 id="myHeader">My Header</h1>
-
-        <!--
-            Iframes
-        -->
-        <iframe src="https://www.w3schools.com/" height="100%" width="50%" style="position: center"></iframe>
-
-        <!--
-            Javascript
-        -->
-        <br>
-        <button type="button" onclick=onClick()>Click Me</button>
-        
-        <p id="demo">This is demo text</p>
-
-        <script>
-            function onClick(){
-                document.getElementById("demo").innerHTML = "You clicked the button";
-            }
-        </script>
     </body>
 </html>
+
