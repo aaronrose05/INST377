@@ -1,3 +1,14 @@
+p {
+    font-family: Helvetica, sans-serif;
+    font-size: 12pt;
+    color: black;
+}
+
+h3, h4, li, blockquote {
+    font-family: Helvetica, sans-serif;
+    color: black;
+}
+
 .frontpage{
     background-color: #f2f2f2;
     color: black;
@@ -19,20 +30,24 @@
     margin: 20px;
 }
 
-.frontpage_sub_header{
-    background: linear-gradient(0.5turn, #3a3a3a, #5e5e5e);
-    border-bottom: 3px solid black;
-    border-radius: 5px;
-    font-family: Helvetica, sans-serif;
-    font-size: 20px;
-    font-weight: bold;
-    font-style: oblique;
-    margin-left: 30%;
-    margin-right: 30%;
-    margin-bottom: 0;
-    text-align: left;
+.frontpage_friendly_image{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
+.frontpage_image_styling{
+    height: 50%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.frontpage_job_container{
+    padding-bottom: 5%;
+}
 
 .flex-container {
     display: flex;
