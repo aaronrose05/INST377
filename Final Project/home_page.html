@@ -8,11 +8,55 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+    <!--Google Archivo Font-->
+    <link href='https://fonts.googleapis.com/css?family=Archivo' rel='stylesheet'>
+
     <title>Home Page</title>
   </head>
 
+  <style>
+    body, html {
+        height: 100%;
+    }
+
+    .bg {
+        /* The image used */
+        background-image: 
+        linear-gradient(
+        rgba(45, 42, 70, 0.55),
+        rgba(45, 42, 70, 0.55)
+        ),
+        /* bottom, image */
+        url("/Users/aaronrose/Documents/INST377/Final Project/maryland.png");
+
+        /* Full height */
+        height: 100%;
+
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+  </style>
 
   <body>
+    <div class="bg">
+        
+        <div style="margin-left: 25%; margin-right: 25%; padding-top: 20%;">
+            <h1 style="color: white; font-family: Archivo; font-size: 50px; text-align: center;">
+                Find your voting district
+            </h1>
+            
+            <button type="button" class="btn btn-secondary btn-lg" style="border-radius: 30px;
+            background-color: rgb(148, 185, 204); margin-left: 15%; font-family: Archivo;
+            border-color: rgb(148, 185, 204);">Get Started</button>
+
+        <p style="padding-top: 45%; text-align: center"> Contact</p>
+        </div>
+
+    </div>
+
     
 
     <!-- Optional JavaScript -->
