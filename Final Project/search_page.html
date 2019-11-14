@@ -19,6 +19,12 @@
 
   <style>
 
+    .navbar-color{
+        background-color: rgb(148, 185, 204);
+        color: white;
+        font-family: 'Archivo';
+    }
+
     body{
     background: #f2f2f2;
     font-family: 'Archivo';
@@ -48,8 +54,8 @@
     .searchButton {
     width: 40px;
     height: 36px;
-    border: 1px solid rgb(148, 185, 204);;
-    background: rgb(148, 185, 204);;
+    border: 1px solid rgb(148, 185, 204);
+    background: rgb(148, 185, 204);
     text-align: center;
     color: #fff;
     border-radius: 0 5px 5px 0;
@@ -98,20 +104,24 @@
 
   <body>
     <div class="bg">
+
+        <nav class="navbar fixed-top navbar-light navbar-color">
+            <a class="navbar-brand" href="home_page.html"><i class="fas fa-home" style="color: white"></i></a>
+        </nav>
         
         <div style="margin-left: 25%; margin-right: 25%; padding-top: 20%;">
             <h1 style="color: white; font-family: Archivo; font-size: 50px; text-align: center;">
                 Enter Your Address to Start:
             </h1>
         </div>
-                <div class="wrap">
-                        <div class="search">
-                           <input type="text" class="searchTerm" placeholder="What are you looking for?">
-                           <button type="submit" class="searchButton">
-                             <i class="fa fa-search"></i>
-                          </button>
-                        </div>
-                     </div>
+             <div class="wrap">
+                <div class="search">
+                   <input type="text" class="searchTerm" placeholder="What are you looking for?">
+                    <button type="submit" class="searchButton">
+                        <i class="fa fa-search"></i>
+                    </button>
+                </div>
+            </div>
 
         <!-- <p id="footer"> Support | Contact</p> -->
     </div>
