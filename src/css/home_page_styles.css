@@ -1,0 +1,170 @@
+@media all and (max-height: 610px){
+    body, html{
+        background-color: black;
+    }
+
+    .learn_more_container{
+        display: none;
+    }
+}
+
+@media all and (min-width: 760px) {
+
+        body, html {
+            height: 100%;
+        }
+    
+        .introduction_content{
+            margin-left: auto;
+            margin-right: auto;
+            padding-left: 1.5rem;
+            padding-right: 1.5rem;
+            display: flex;
+            flex-direction: row;
+            height: 30%;
+        }
+    
+        .information_container{
+            height: 40%;
+            background-image: url('../static/maryland flag.png');
+            background-position: center;
+            background-size: cover;
+            min-height: 30%;
+        }
+    
+        .information_grid{
+            padding-left: 3rem;
+            padding-right: 3rem;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    
+        .option_list{
+            float: left;
+            width: auto;
+            min-height: 25%;
+            margin: 5%;
+        }
+    
+        .option_list_spacing{
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+        }
+    
+        .option_list_spacing:hover{
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            border-left: 5px solid white;
+            background-color: rgb(245, 245, 245, 25%);
+        }
+    
+        ul {
+            display: block;
+            list-style-type: disc;
+        }
+    
+        ul > :first-child{
+            border-left: 5px solid white;
+        }
+    
+        .option_list_items{
+            font-family: 'Archivo';
+            color: white;
+            text-decoration: none;
+            font-size: 18pt;
+            padding-left: 1rem;
+            padding-right: 1rem;
+        }
+    
+        .option_list_items:hover{
+            font-family: 'Archivo';
+            color: white;
+            text-decoration: none;
+            font-size: 18pt;
+            padding-left: 1rem;
+        }
+    
+        .learn_more_container{
+            float: right;
+            width: 400px;
+            height: auto;
+            border: 1px solid white;
+            margin-top: 5%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 2rem;
+            color: white;
+            font-family: 'Archivo';
+        }
+    
+        .webpage_title{
+            font-family: 'Archivo';
+            display: inline-block;
+            padding-top: 2rem;
+            padding-left: 1.5rem;
+            font-size: 28pt;
+        }
+    
+        .logo_container{
+            width: 20%;
+            height: 100%;
+            display: inline-block;
+        }
+    
+        .pg_county_logo{
+            float: left;
+            display: flex;
+            justify-content: center;
+            height: 100%;
+            width: 100%;
+        }
+    
+        .start_button{
+          border-radius: 30px;
+          background-color: rgb(148, 185, 204); 
+          margin-left: 15%; 
+          font-family: Archivo;
+          border-color: rgb(148, 185, 204);
+        }
+    
+        .start_button:hover{
+          border-radius: 30px;
+          background-color: rgb(120, 151, 167); 
+          margin-left: 15%; 
+          font-family: Archivo;
+          border-color: rgb(120, 151, 167);
+        }
+    
+        .get_to_know{
+            height: 30%;
+            display: flex;
+        }
+    
+        .get_to_know_title{        
+            font-family: 'Archivo';
+            display: flex;
+            padding-top: 2rem;
+            font-size: 24pt;
+        }
+    
+        .representatives{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            width: 25%;
+            left: 0;
+        }
+
+        .representative_img{
+            border: 5px ridge #7B53B5;
+            border-radius: 10px 0px 10px 0px;
+            background-size: contain;
+        }
+    }
+
+
+
+
+
