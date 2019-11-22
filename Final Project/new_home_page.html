@@ -5,6 +5,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!--Home Page Stylesheet-->
+    <link rel="stylesheet" href="home_page_styles.css">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
@@ -16,161 +19,6 @@
 
     <title>Home Page</title>
   </head>
-
-  <style>
-
-    body, html {
-        height: 100%;
-        background-color: rgb(245, 245, 245);
-    }
-
-    .introduction_content{
-        margin-left: auto;
-        margin-right: auto;
-        padding-left: 1.5rem;
-        padding-right: 1.5rem;
-        display: flex;
-        flex-direction: row;
-        height: 30%;
-    }
-
-    .information_container{
-        height: 40%;
-        background-image: url('maryland flag.png');
-        background-position: center;
-        background-size: cover;
-        min-height: 30%;
-    }
-
-    .information_grid{
-        padding-left: 3rem;
-        padding-right: 3rem;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .option_list{
-        float: left;
-        width: auto;
-        min-height: 25%;
-        margin: 5%;
-    }
-
-    .option_list_spacing{
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-    }
-
-    .option_list_spacing:hover{
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-        border-left: 5px solid white;
-        background-color: rgb(245, 245, 245, 25%);
-    }
-
-    ul {
-        display: block;
-        list-style-type: disc;
-    }
-
-    ul > :first-child{
-        border-left: 5px solid white;
-    }
-
-    .option_list_items{
-        font-family: 'Archivo';
-        color: white;
-        text-decoration: none;
-        font-size: 18pt;
-        padding-left: 1rem;
-        padding-right: 1rem;
-    }
-
-    .option_list_items:hover{
-        font-family: 'Archivo';
-        color: white;
-        text-decoration: none;
-        font-size: 18pt;
-        padding-left: 1rem;
-    }
-
-    .learn_more_container{
-        float: right;
-        width: 33%;
-        min-height: 25%;
-        border: 1px solid white;
-        margin-top: 5%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        padding: 2rem;
-        color: white;
-        font-family: 'Archivo';
-    }
-
-    .webpage_title{
-        font-family: 'Archivo';
-        display: inline-block;
-        padding-top: 2rem;
-        padding-left: 1.5rem;
-        font-size: 28pt;
-    }
-
-    .logo_container{
-        width: 20%;
-        height: 100%;
-        display: inline-block;
-    }
-
-    .pg_county_logo{
-        float: left;
-        display: flex;
-        justify-content: center;
-        height: 100%;
-        width: 100%;
-    }
-
-    .start_button{
-      border-radius: 30px;
-      background-color: rgb(148, 185, 204); 
-      margin-left: 15%; 
-      font-family: Archivo;
-      border-color: rgb(148, 185, 204);
-    }
-
-    .start_button:hover{
-      border-radius: 30px;
-      background-color: rgb(120, 151, 167); 
-      margin-left: 15%; 
-      font-family: Archivo;
-      border-color: rgb(120, 151, 167);
-    }
-
-    .get_to_know{
-        height: 60%;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .get_to_know_title{        
-        font-family: 'Archivo';
-        display: flex;
-        padding-top: 2rem;
-        font-size: 24pt;
-    }
-
-    .representatives_container{
-        display: flex;
-        flex-direction: row;
-        height: 100%;
-    }
-
-    .representatives{
-        width: 33%;
-        margin: 1.5rem;
-    }
-
-  </style>
 
   <body>
       <div class="introduction_content">
@@ -198,24 +46,58 @@
           </div>
       </section>
           <div class="get_to_know">
-              <div class="get_to_know_title">
-                  <p>Get to know your state's Representatives</p>
+              <div class="representatives">
+                <figure>
+                    <img class="representative_img" src="andy_harris.jpeg">
+                    <figcaption><a href="">Andy Harris</figcaption>
+                </figure>
               </div>
-
-              <div class="representatives_container">
-                  <div class="representatives">
-
-                  </div>
-                  <div class="representatives">
-
-                  </div>
-                  <div class="representatives">
-
-                  </div>
-              </div>
-          </div>
-          
-    </div>
+              <div class="representatives">
+                <figure>
+                    <img class="representative_img" src="dutch_ruppersberger.jpeg">
+                    <figcaption><a href="">A. Ruppersberger</figcaption>
+                </figure>
+            </div>
+            <div class="representatives">
+                <figure>
+                    <img class="representative_img" src="john_sarbanes.jpeg">
+                    <figcaption><a href="">John Sarbanes</figcaption>
+                </figure>
+            </div>
+            <div class="representatives">
+                <figure>
+                    <img class="representative_img" src="anthony_brown.jpeg">
+                    <figcaption><a href="">Anthony Brown</figcaption>
+                </figure>
+            </div>
+        </div>
+        <div class="get_to_know">
+                <div class="representatives">
+                    <figure>
+                        <img class="representative_img" src="steny_hoyer.jpeg">
+                        <figcaption><a href="">Steny Hoyer</figcaption>
+                    </figure>
+                </div>
+                <div class="representatives">
+                    <figure>
+                        <img class="representative_img" src="david_trone.jpeg">
+                        <figcaption><a href="">David Trone</figcaption>
+                    </figure>
+                </div>
+                <div class="representatives">
+                    <figure>
+                        <img class="representative_img" src="jamie_raskin.jpeg">
+                        <figcaption><a href="">Empty District</figcaption>
+                    </figure>
+                </div>
+                <div class="representatives">
+                    <figure>
+                        <img class="representative_img" src="jamie_raskin.jpeg">
+                        <figcaption><a href="">Jamie Raskin</figcaption>
+                    </figure>
+                </div>
+        </div>
+        </div>
 
     
 
