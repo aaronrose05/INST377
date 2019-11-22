@@ -68,6 +68,11 @@
         background-color: rgb(245, 245, 245, 25%);
     }
 
+    ul {
+        display: block;
+        list-style-type: disc;
+    }
+
     ul > :first-child{
         border-left: 5px solid white;
     }
@@ -141,6 +146,30 @@
       border-color: rgb(120, 151, 167);
     }
 
+    .get_to_know{
+        height: 60%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .get_to_know_title{        
+        font-family: 'Archivo';
+        display: flex;
+        padding-top: 2rem;
+        font-size: 24pt;
+    }
+
+    .representatives_container{
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+    }
+
+    .representatives{
+        width: 33%;
+        margin: 1.5rem;
+    }
+
   </style>
 
   <body>
@@ -166,6 +195,24 @@
                 <br>
                 <p><a style="color: white" href="about_page.html">Click here to learn more </a><i class="fas fa-arrow-right" style="color: white"></i></p>
             </div>
+          </div>
+      </section>
+          <div class="get_to_know">
+              <div class="get_to_know_title">
+                  <p>Get to know your state's Representatives</p>
+              </div>
+
+              <div class="representatives_container">
+                  <div class="representatives">
+
+                  </div>
+                  <div class="representatives">
+
+                  </div>
+                  <div class="representatives">
+
+                  </div>
+              </div>
           </div>
           
     </div>
