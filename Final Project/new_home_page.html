@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!--Google Archivo Font-->
+    <link href='https://fonts.googleapis.com/css?family=Archivo' rel='stylesheet'>
+
+    <!--Font Awesome Icons-->
+    <script src="https://kit.fontawesome.com/cc2af53486.js" crossorigin="anonymous"></script>
+
+    <title>Home Page</title>
+  </head>
+
+  <style>
+
+    body, html {
+        height: 100%;
+        background-color: rgb(245, 245, 245);
+    }
+
+    .introduction_content{
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        display: flex;
+        flex-direction: row;
+        height: 30%;
+    }
+
+    .information_container{
+        height: 40%;
+        background-image: url('maryland flag.png');
+        background-position: center;
+        background-size: cover;
+        min-height: 30%;
+    }
+
+    .information_grid{
+        padding-left: 3rem;
+        padding-right: 3rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .option_list{
+        float: left;
+        width: auto;
+        min-height: 25%;
+        margin: 5%;
+    }
+
+    .option_list_spacing{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .option_list_spacing:hover{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        border-left: 5px solid white;
+        background-color: rgb(245, 245, 245, 25%);
+    }
+
+    ul > :first-child{
+        border-left: 5px solid white;
+    }
+
+    .option_list_items{
+        font-family: 'Archivo';
+        color: white;
+        text-decoration: none;
+        font-size: 18pt;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .option_list_items:hover{
+        font-family: 'Archivo';
+        color: white;
+        text-decoration: none;
+        font-size: 18pt;
+        padding-left: 1rem;
+    }
+
+    .learn_more_container{
+        float: right;
+        width: 33%;
+        min-height: 25%;
+        border: 1px solid white;
+        margin-top: 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 2rem;
+        color: white;
+        font-family: 'Archivo';
+    }
+
+    .webpage_title{
+        font-family: 'Archivo';
+        display: inline-block;
+        padding-top: 2rem;
+        padding-left: 1.5rem;
+        font-size: 28pt;
+    }
+
+    .logo_container{
+        width: 20%;
+        height: 100%;
+        display: inline-block;
+    }
+
+    .pg_county_logo{
+        float: left;
+        display: flex;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+    }
+
+    .start_button{
+      border-radius: 30px;
+      background-color: rgb(148, 185, 204); 
+      margin-left: 15%; 
+      font-family: Archivo;
+      border-color: rgb(148, 185, 204);
+    }
+
+    .start_button:hover{
+      border-radius: 30px;
+      background-color: rgb(120, 151, 167); 
+      margin-left: 15%; 
+      font-family: Archivo;
+      border-color: rgb(120, 151, 167);
+    }
+
+  </style>
+
+  <body>
+      <div class="introduction_content">
+          <!--
+          <div class="logo_container">
+              <img class="pg_county_logo" src="pg_county_logo.png">
+          </div>
+        <p class="webpage_title">Prince George's County <br> Polling Centers</p>
+        -->
+      </div>
+      <section class="information_container">
+          <div class="information_grid">
+            <div class="option_list">
+                <ul>
+                    <li class="option_list_spacing"><a class="option_list_items" href="search_page.html">Get Started</a></li>
+                    <li class="option_list_spacing"><a class="option_list_items"href="about_page.html">About Us</a></li>
+                    <li class="option_list_spacing"><a class="option_list_items"href="help_page.html">Help</a></li>
+                </ul>
+            </div>
+            <div class="learn_more_container">
+                <p>Prince George's Polling Centers is here to help you find your nearest polling center</p>
+                <br>
+                <p><a style="color: white" href="about_page.html">Click here to learn more </a><i class="fas fa-arrow-right" style="color: white"></i></p>
+            </div>
+          </div>
+          
+    </div>
+
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script>
+      var button = document.getElementById('goToSearch');
+      button.onclick = function() {
+        location.assign('search_page.html');
+      }
+    </script>
+  </body>
+</html>
